@@ -5,7 +5,7 @@ import {
 import {RFValue} from 'react-native-responsive-fontsize';
 
 export const Colors = {
-  primary: '#282973',
+  primary: '#0D2440',
   primary2: '#1BBC9B',
   primaryText: '#45AE9F',
   golden: 'rgba(255, 184, 34, 0.8)',
@@ -64,19 +64,19 @@ export const Spacing = {
 };
 
 export const FontSize = {
-  es: RFValue(12),
-  s: RFValue(14),
-  m: RFValue(16),
-  l: RFValue(18),
-  xl: RFValue(20),
-  xxl: RFValue(30),
+  ES: RFValue(12),
+  S: RFValue(14),
+  M: RFValue(16),
+  L: RFValue(18),
+  XL: RFValue(20),
+  XXL: RFValue(30),
 };
 
 export const WIDTH = wp(92);
 export const Redious = hp(2.7);
 export const FontFamily = {
-  HelverticaB: 'helvetica-neue-bold',
-  HelverticaM: 'helvetica-neue-medium',
-  HelverticaR: 'helvetica-neue-regular',
-  HelverticaL: 'helvetica-neue-light',
+  SourceSansB: 'SourceSansPro-Bold',
+  SourceSansR: 'SourceSansPro-Light',
+  SourceSansL: 'SourceSansPro-Regular',
+  SourceSansEL: 'SourceSansPro-ExtraLight',
 };
