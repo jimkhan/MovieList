@@ -10,18 +10,18 @@ const initialState = {
   movieList: [],
 } as stateProps;
 
-const authState = createSlice({
-  name: 'letest',
+const latestList = createSlice({
+  name: 'latest',
   initialState,
   reducers: {
-    addLetestList: (state, action) => {
+    addLatestList: (state, action) => {
       state.isLoading = false;
-      state.movieList.push(action.payload);
-      console.log('Letest list', state.movieList);
+      state.movieList.push(...action.payload);
+      console.log('Latest list', state.movieList);
     },
   },
 });
 
-export const {addLetestList} = authState.actions;
+export const {addLatestList} = latestList.actions;
 
-export default authState.reducer;
+export default latestList.reducer;

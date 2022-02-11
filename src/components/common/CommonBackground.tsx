@@ -5,7 +5,6 @@ import {
   ScrollView,
   ScrollViewProps,
 } from 'react-native';
-// import Icon from 'react-native-vector-icons/Ionicons';
 import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
 
 type backgroundProps = {

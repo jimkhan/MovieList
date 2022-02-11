@@ -45,16 +45,6 @@ export const Colors = {
   inputback: '#F9F9F9',
 };
 
-export const StatusIcon = {
-  AllOrders: 'document-text-outline',
-  Pending: 'time-outline',
-  Completed: 'checkmark-circle-outline',
-  Open: 'mail-open-outline',
-  OnHold: 'pause-circle-outline',
-  PostClosing: 'folder-outline',
-  Closed: 'checkmark-done-outline',
-};
-
 export const Spacing = {
   s: hp(2),
   m: wp(5),
@@ -74,6 +64,7 @@ export const FontSize = {
 
 export const WIDTH = wp(92);
 export const Redious = hp(2.7);
+
 export const FontFamily = {
   SourceSansB: 'SourceSansPro-Bold',
   SourceSansR: 'SourceSansPro-Light',

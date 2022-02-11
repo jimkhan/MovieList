@@ -16,8 +16,8 @@ const popularList = createSlice({
   reducers: {
     addPopularList: (state, action) => {
       state.isLoading = false;
-      state.movieList.push(action.payload);
-      console.log('Letest list', state.movieList);
+      state.movieList.push(...action.payload);
+      console.log('Letest list', action.payload);
     },
   },
 });

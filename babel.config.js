@@ -11,8 +11,10 @@ module.exports = {
           '@screens': './src/screens',
           '@img': './src/img',
           '@config': './src/config',
-          '@store': './src/store/GlobalStore.tsx',
+          '@store': './src/store',
           '@dataType': './src/data',
+          '@Api': 'src/api/movie',
+
           '@navigation': './src/navigation',
           types: 'types',
         },

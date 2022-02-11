@@ -38,7 +38,9 @@ export type RootStackParamList = {
   PopularMovieScreen: {
     movieInfo: VideoInfoProps;
   };
-  MovieDetailsScreen: undefined;
+  MovieDetailsScreen: {
+    detailsData: object;
+  };
 };
 
 export type LetestMovieScreenNavigationProps = {

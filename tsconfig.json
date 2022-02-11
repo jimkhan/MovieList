@@ -47,7 +47,8 @@
       "@img": ["./src/img"],
       "@config": ["./src/config"],
       "@navigation": ["./src/navigation"],
-      "@store": ["./src/store/GlobalStore.tsx"],
+      "@store": ["src/store"],
+      "@Api": ["src/api/movie"],
       "@dataType": ["./src/data"],
       "types": ["types"]
     } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
